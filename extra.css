@@ -84,3 +84,19 @@ a{
 p{
     text-shadow: 2px 2px 2px white;
 }
+#img01{
+    filter: blur(10px)
+}
+#img02{
+    filter: grayscale(100%)
+}
+#img03{
+    filter: sepia(90%)
+}
+#img04{
+    filter: grayscale(100%)
+}
+
+#img06{
+    filter: grayscale(100%)
+}
