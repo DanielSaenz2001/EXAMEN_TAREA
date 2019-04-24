@@ -1,0 +1,139 @@
+body{
+    width: 100%;
+    background-color: #02010a;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    height: 100%;
+    transform: translate(0,-550px);
+    
+}
+.contenido{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    transition:all 3s;
+    transform: translate(0,550px);
+}
+
+.cabezera{
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    background: #5b7989;
+}
+
+
+div .nombre{
+    color: white;
+    text-shadow: 2px 2px 2px #02010a;
+    margin: auto;
+    font-size: 212%;
+    text-align: center;
+    
+}
+div .menu{
+    font-size: 136%;
+    margin: auto;
+}
+
+
+a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.menu ul{
+    
+    margin-left: -8%;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+}
+
+.imagen{
+    background-color: #E1BB68;
+    
+    width: 100%;
+}
+.central{
+    background-color:  #82c3a6;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.central img{
+    margin: auto;
+    width: 70%;
+    border: none;
+}
+img{
+    transition: all 1s;
+    margin: auto;
+    display:block;
+    width: 95%;
+    border: 1px solid #d5c75f;
+}
+.secundarias img{
+    box-shadow: 2px 2px #02010a;
+}
+
+.secundarias{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+
+.sec{
+    margin: auto;
+    text-align: center;
+	width:300px;
+}
+.sec a{
+    color: #02010a;
+    
+}
+#img1:hover{
+    transition:all 1s;
+
+    transform: rotate(10deg);
+    margin: 7px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #82c3a6;
+
+}
+#img2:hover{
+    transition:all 1s;
+    transform: translate(6%,-1%);
+    box-shadow: 2px 2px 2px #82c3a6;
+}
+.footer{
+    background-color: #C6d5c5;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 0 0 10px 10px ;
+    font-weight: 400;
+    font-size: 100%;
+    padding-bottom: 4%;
+    width: 100%;
+}
+.con{
+    margin-left: 2%;
+	width:200px;
+	font-size:20px;
+}
+.footer img{
+    width: 10%;
+    float: left;
+}
+.con p{
+    margin-bottom: -6%;
+}
+.footer a{
+    color:black;
+}
