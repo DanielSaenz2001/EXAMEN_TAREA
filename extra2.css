@@ -14,16 +14,13 @@ body{
     transition:all 1s;
     transform: translate(0,550px);
 }
-
 .cabezera{
     border-radius: 10px 10px 0 0;
     display: flex;
-    flex-flow: row wrap;
     width: 100%;
+    flex-flow: row wrap;
     background: #5b7989;
 }
-
-
 div .nombre{
     color: white;
     text-shadow: 2px 2px 2px #02010a;
@@ -36,8 +33,6 @@ div .menu{
     font-size: 136%;
     margin: auto;
 }
-
-
 a{
     list-style-type: none;
     color: white;
@@ -53,63 +48,12 @@ a{
     color: white;
 }
 
-.imagen{
+.extras{
     background-color: #E1BB68;
-    
-    width: 100%;
-}
-.central{
-    background-color:  #82c3a6;
-    margin: auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-.central img{
-    margin: auto;
-    width: 70%;
-    border: none;
-}
-img{
-    transition: all 1s;
-    margin: auto;
-    display:block;
-    width: 95%;
-    border: 1px solid #d5c75f;
-}
-.secundarias img{
-    box-shadow: 2px 2px #02010a;
-}
-
-.secundarias{
-    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    
-}
-
-.sec{
-    margin: auto;
-    text-align: center;
-	width:300px;
-}
-.sec a{
-    color: #02010a;
-    
-}
-#img1:hover{
-    transition:all 1s;
-
-    transform: rotate(10deg);
-    margin: 7px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px #82c3a6;
-
-}
-#img2:hover{
-    transition:all 1s;
-    transform: translate(6%,-1%);
-    box-shadow: 2px 2px 2px #82c3a6;
+    width: 100%;
 }
 .footer{
     background-color: #C6d5c5;
@@ -122,6 +66,9 @@ img{
     padding-bottom: 4%;
     width: 100%;
 }
+.footer a{
+    color:black;
+}
 .con{
     margin-left: 2%;
 	width:200px;
@@ -131,9 +78,6 @@ img{
     width: 10%;
     float: left;
 }
-.con p{
-    margin-bottom: -6%;
-}
-.footer a{
-    color:black;
+p{
+    text-shadow: 2px 2px 2px white;
 }
